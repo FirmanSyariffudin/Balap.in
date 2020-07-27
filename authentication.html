@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <!-- Sorry, this apps is underconstruction now -->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Balap">
+    <meta name="author" content="Calcatz">
+    <meta name="keywords"
+        content="balap, ojek online, ojek, online, sampah, antar jemput, antar, jemput, motor, mobil">
+
+    <title>Balap</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="icons/flaticon.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/pages/authentication.css" />
+    <link href="https://fonts.googleapis.com/css?family=Krub:400&display=swap" rel="stylesheet"> 
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $.ajaxSetup({cache:false});
+            $("#header").load("components/header.html?id="+Math.random());
+            // alert("components/header.html?id="+Math.random())
+            // $("#footer").load("components/footer.html"); 
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <div class="container">
+        <!-- Login -->
+        <div class="login" id="login">
+            <div align="center">
+                <div class="logo-placeholder">
+                    <div class="logo"></div>
+                </div>
+            </div>
+            <div class="success-alert" id="login-success-sign">Login success</div>
+            <!-- Error Text -->
+            <div id="login-empty-field"></div>
+            <div class="error-text" id="login-wrong-email-or-password">Email or Password is invalid</div>
+            <div class="error-text" id="login-try-again">Something wrong! Try Again</div>
+            <!-- Form -->
+            <div class="form-container">
+                <div class="input-field">
+                    <input type="email" id="login-email" class="validate">
+                    <label for="login-email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="login-password" class="validate">
+                    <label for="login-password">Password</label>
+                </div>
+                <div>
+                    <a href="./underconstruction.html" class="blue-text">Forget Password?</a>
+                </div>
+                <div class="remember-me">
+                    <label>
+                        <input type="checkbox">
+                        <span>Remember Me</span>
+                    </label>
+                </div>
+            </div>
+            <div align="center">
+                <a style="width: 60%;" href="./underconstruction.html" class="btn-flat solid login-btn" id="login-button">Log in</a>
+            </div>
+            <div align="center" class="didnt-have-account">
+                <a>Didn't have an account?</a>
+                <a href="./authentication.html?type=signup" class="blue-text">Click Here</a>
+            </div>
+            <div class="garis-section">
+                <div class="garis"></div>
+                <div class="text">Or</div>
+                <div class="garis" style="margin-left: 20%;"></div>
+            </div>
+            <div align="center">
+                <a href="./underconstruction.html" class="btn-flat solid fb"><i class="fa fa-facebook"></i>Masuk dengan Facebook</a>
+                <a href="./underconstruction.html" class="btn-flat solid gg"><i class="fa fa-google"></i>Masuk dengan Google</a>
+            </div>
+        </div>
+
+        <!-- Sign Up -->
+        <div class="signup" id="signup">
+            <div align="center">
+                <div class="logo-placeholder">
+                    <div class="logo"></div>
+                </div>
+            </div>
+            <div class="success-alert" id="signup-success-sign">Your account is successfully created</div>
+            <!-- Error Text -->
+            <div class="error-text" id="signup-pass-doesnt-match">Password doesn't match</div>
+            <div class="error-text" id="signup-need-verification">Your account need verification</div>
+            <div class="error-text" id="signup-registered">Your email has been registered</div>
+            <div class="error-text" id="signup-signup-failed">Something wrong! try again</div>
+            <div id="signup-empty-field"></div>
+            <!-- Form -->
+            <div class="form-container">    
+                <div class="input-field">
+                    <input type="text" id="signup-name" class="validate" required>
+                    <label for="signup-name">Name</label>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="signup-email" class="validate" required>
+                    <label for="signup-email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="signup-password" class="validate" required>
+                    <label for="signup-password">Password</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="signup-confirm-password" class="validate" required>
+                    <label for="signup-confirm-password">Confirm Password</label>
+                </div>
+                <div class="input-field">
+                    <input type="tel" minlength="10" maxlength="14" id="signup-phone-number" class="validate" required>
+                    <label for="signup-phone-number">Phone Number</label>
+                </div>
+                <div class="term-of-service">
+                    <label>
+                        <input type="checkbox" id="tos-check">
+                        <span>I Agree with the</span>
+                        <span><a class="blue-text tos-text" href="./underconstruction.html">Term of Service</a></span>
+                    </label>
+                </div>    
+            </div>
+            <div align="center">
+                <a style="width: 60%;" class="btn-flat solid signup-btn disabled" id="signup-button">Sign up</a>
+            </div>
+            <div align="center" class="have-account">
+                <a>Have an account?</a>
+                <a href="./authentication.html" class="blue-text">Login Here</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="divider-mobile"></div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://unpkg.com/@directus/sdk-js@4.0.0/dist/directus-sdk.umd.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/cms.js"></script>
+    <script type="text/javascript" src="js/authentication.js"></script>
+</body>
+
+</html>

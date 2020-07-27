@@ -1,0 +1,111 @@
+/* :root {
+    --main-company-transparent-color: #00000000;
+    --main-company-color: rgba(255,161, 29,1);
+    --secondary-company-color: white;
+    --third-company-color: rgba(255,222, 29,1);
+    --alternative-company-color: rgba(236,  6,  0,1);
+    --main-company-text-color:#222222;
+    --secondary-company-text-color: rgb(251,157,50);
+    --main-company-text-selected:#dd0a0a;
+    --secondary-company-text-selected:#faea17;
+    --main-shade-company-color: lightgray;
+    --gradient-company-color-backup: rgb(210,159,56);
+    --gradient-company-color:linear-gradient(45deg,rgba(255,179, 72,1) 0%, rgba(255,235,119,1) 100%);
+  } */
+
+:root {
+    --main-company-transparent-color: #00000000;
+    --main-company-color: #ffa509;
+    --secondary-company-color: #fff9d7;
+    --third-company-color: #b47508;
+    --alternative-company-color: #ff3416;
+    --main-company-text-color:#000000;
+    --secondary-company-text-color: #ffffff;
+    --main-company-color-disable: #dededeff;
+    --image-placeholder: #00000064;
+    --gradient-company-color-backup: rgb(210,159,56);
+    --gradient-company-color:linear-gradient(45deg,rgba(255, 88, 88,1) 0%, rgba(255,131, 88,1) 100%);
+}
+
+.h5{
+  font-family: 'Krub', sans-serif;
+  font-weight: 700;
+}
+
+.btn-flat.transparent{
+  background-color: var(--main-company-transparent-color);
+  color: var(--secondary-company-text-color);
+  border: 1px solid var(--main-company-color);
+  margin-top: 10px;
+}
+
+.btn-flat.solid{
+  background-color: var(--main-company-color);
+  color: white;
+  margin-top: 10px;
+}
+
+.btn-flat.disabled{
+  background-color: var(--main-company-color-disable)!important;
+  color: white!important;
+  margin-top: 10px;
+}
+
+a.section-title{
+  font-size: 1.75rem;
+  color: black;
+  border-bottom: 0.3rem solid var(--main-company-color);
+  padding-right: 10px;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+.section-title-placeholder{
+  margin: 30px 0px 10px;
+}
+
+.divider-mobile{
+  height: 10vh;
+}
+
+a {
+  color: black;
+}
+
+.input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea{
+	border-bottom: 1px solid var(--main-company-color);
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid var(--main-company-color);
+  -webkit-box-shadow: 0 1px 0 0 var(--main-company-color);
+          box-shadow: 0 1px 0 0 var(--main-company-color);
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: var(--main-company-color);
+}

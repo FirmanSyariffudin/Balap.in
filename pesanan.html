@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <!-- Sorry, this apps is underconstruction now -->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Balap">
+    <meta name="author" content="Calcatz">
+    <meta name="keywords"
+        content="balap, ojek online, ojek, online, sampah, antar jemput, antar, jemput, motor, mobil">
+
+    <title>Balap</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="icons/flaticon.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/pages/pesanan.css" />
+    <link href="https://fonts.googleapis.com/css?family=Krub:400&display=swap" rel="stylesheet"> 
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $.ajaxSetup({cache:false});
+            $("#header").load("components/header.html?id="+Math.random());
+            // alert("components/header.html?id="+Math.random())
+            // $("#footer").load("components/footer.html"); 
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Content -->
+
+    <div class="image">
+        <img src="./images/map.png" style="width:100%" alt="map">
+    </div><br>
+
+    <div class="pesanan-section" id="pesanan-section">
+        <div class="identitas-driver">
+            <div class="foto-driver">
+                <img src="./images/no-image-user.png" alt="">
+            </div>
+            <div class="nama-driver">
+                <h4 class="judul">Lorem Ipsum</h4>
+                <p class="identitas-text">Honda Beat - L 4556 VO</p>
+                <a class="btn-flat solid btn-hubungi">Hubungi</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h4 class="judul">Penjemputan</h4>
+            <div class="placeholder">
+                <i class="material-icons">location_on</i>
+                <p class="placeholder-paragraf">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="linebreak">
+                <br><br>
+            </div>
+
+            <h4 class="judul">Tujuan (9.9 km)</h4>
+            <div class="placeholder">
+                <i class="material-icons">location_on</i>
+                <p class="placeholder-paragraf">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        
+            <div class="perhitungan-ongkos">
+                <div class="ongkos">
+                    <p class="ongkos-text">Ongkos</p>
+                    <p class="ongkos-harga">Rp 99.000</p>
+                </div>
+                <div class="voucher">
+                    <p class="voucher-text">Potongan Voucher</p>
+                    <p class="voucher-harga">Rp 0.00</p>
+                </div><hr>
+                <div class="total">
+                    <p class="total-text">Paid with Cash</p>
+                    <p class="total-harga">Rp 99.000</p>
+                </div>
+                <div align="center">
+                    <a href="anut.html?type=pembayaran" class="btn-flat solid btn-action">Cancel</a><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider-mobile"></div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://unpkg.com/@directus/sdk-js@4.0.0/dist/directus-sdk.umd.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/cms.js"></script>
+    <script type="text/javascript" src="js/pesanan.js"></script>
+</body>
+
+</html>

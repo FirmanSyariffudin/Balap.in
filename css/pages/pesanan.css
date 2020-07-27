@@ -1,0 +1,93 @@
+.judul {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 2vh;
+}
+
+.placeholder {
+    display: flex;
+}
+
+.placeholder-icon {
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.placeholder-paragraf {
+    width: 100%;
+    margin: 0px;
+}
+
+.linebreak {
+    left: 0px;
+    margin: 1vh 0vh;
+    border-left-style: dashed;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.perhitungan-ongkos {
+    position: relative;
+    margin-top: 2vh;
+}
+
+.ongkos, .voucher, .total , .pembayaran{
+    display: flex;
+    position: relative;
+}
+
+.ongkos .ongkos-text,.voucher-text,.total-text,.pembayaran-text {
+    width: 50%;
+    margin: 5px;
+}
+
+.ongkos .ongkos-harga,.voucher-harga,.total-harga {
+    text-align: right;
+    width: 50%;
+    margin: 5px;
+}
+
+.identitas-driver {
+    display: flex;
+    background-color: rgb(255, 228, 179);
+    margin: 0px;
+}
+
+.identitas-text {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.foto-driver {
+    margin: 15px 25px 20px;
+}
+
+.nama-driver {
+    width: 75%;
+    margin: 0px;
+}
+
+.nama-driver .judul{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.btn-flat.solid.btn-hubungi{
+    position: absolute;
+    margin: 7px 40px;
+    padding: 0vh 10vw;
+    right: 0vw;
+}
+
+.btn-flat.solid.btn-action{
+    background-color: var(--alternative-company-color);
+    color: white;
+    position: relative;
+    margin: 3vh 10vw 0px;
+    padding:  3vh 30vw;
+    font-weight: bold;
+    line-height: 0vh;
+    font-size: 15px;
+}

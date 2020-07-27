@@ -1,0 +1,19 @@
+.footer-button{
+    font-family: var(--body-font);
+    font-size: 16px;
+    /* font-weight: bold !important; */
+    line-height: 16px;
+    padding: 0px 0px;
+    color: white;
+}
+
+.footer-logo{
+    width:15vw;
+    vertical-align: center;
+}
+
+.footer{
+    bottom: 0px;
+    position: absolute;
+    width: 100vw;
+}

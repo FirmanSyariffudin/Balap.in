@@ -1,0 +1,20 @@
+{
+  "short_name": "Balap",
+  "name": "Balap",
+  "icons": [
+    {
+      "src": "images/logo_small.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo_small.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#ffffff"
+}

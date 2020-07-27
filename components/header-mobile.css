@@ -1,0 +1,52 @@
+@media only screen and (max-width: 992px){
+    nav .brand-logo {
+        left: 0px !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+
+    .main-logo {
+        line-height: 0px;
+        height: var(--nav-height);
+        background-color: transparent!important;
+        padding: .5rem!important;
+    }
+
+    .upper-navbar {
+        padding-left: 1rem;
+    }
+
+    .lower-navbar {
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .lower-navbar {
+        visibility: hidden;
+    }
+
+    .header-spacer{
+        height: var(--nav-height);
+    }
+
+    .upper-navbar .container{
+        padding-left: 0px;
+    }
+
+    .upper-navbar .company-name {
+        font-size: 1.25rem;
+    }
+
+    .upper-navbar .company-subname {
+        padding-left: 1px;
+    }
+
+    .navbar-fixed {
+        position: absolute;
+    }
+
+    .navbar-fixed nav {
+        position: absolute;
+    }
+}

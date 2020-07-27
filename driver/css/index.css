@@ -1,0 +1,95 @@
+.login{
+    width: 100%;
+}
+
+.logo-placeholder{
+    width: 50%;
+    height: 100px;
+}
+
+.logo-placeholder .logo{
+    background-image: url(../../images/logo_long.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.remember-me{
+    margin-top: 3vh;
+}
+
+a.login-btn{
+    margin-top: 3vh!important;
+}
+
+.didnt-have-account, .have-account{
+    margin-top: 2vh;
+}
+
+.garis-section{
+    margin: 5vh 0px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.garis-section .garis{
+    border-bottom: 2px solid #dedede;
+    width: 40%;
+}
+
+.garis-section .text{
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -8px;
+    position: absolute;
+}
+
+.fb{
+    text-align: left;
+    width: 90%;
+    background-color: #4267B2!important;
+}
+
+.gg{
+    text-align: left;
+    width: 90%;
+    background-color: #db4a39!important;
+}
+
+.fa.fa-facebook, .fa.fa-google{
+    width: 30px;
+    margin-left: 20px;
+}
+
+.tos-text{
+    font-size: 1rem;
+}
+
+a.signup-btn{
+    margin-top: 3vh!important;
+}
+
+.form-container{
+    width: 85%;
+    margin: 0px auto;
+}
+
+.error-text{
+    color: red;
+    text-align: center;
+}
+
+.success-alert{
+    color: white;
+    background-color: lime;
+    padding: 2px 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.signup{
+    position: relative;
+}

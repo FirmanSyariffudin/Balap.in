@@ -1,0 +1,45 @@
+.collapsible-header {
+    padding: 10px;
+    position: relative ;
+    border-bottom: 1px solid var(--main-company-color);
+}
+
+h5 {
+    margin: 10px;
+}
+
+.collapsible-header i {
+    position: absolute;
+    right: 0px;
+    line-height: 1.2;
+    width: 20%;
+    margin: 0px;
+    font-size: 3rem;
+}
+
+.collapsible-body {
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0px;
+    border-bottom: 1px solid var(--main-company-color);
+}
+
+.collapsible-list{
+    line-height: 25px;
+    margin: 20px 0px;
+
+}
+
+.btn-flat.solid.btn-gunakan {
+    position: relative;
+    margin: 0px 0px 20px;
+    left: 35vw;
+    padding: 0px 40px;
+}
+
+ul.collapsible {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0px rgba(0, 0, 0, 0.12), 0 0px 0px 0 rgba(0,0,0,0.2);
+    border-top: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+}

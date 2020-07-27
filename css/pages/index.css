@@ -1,0 +1,247 @@
+@media only screen and (max-width: 600px){
+    .header-spacer{
+        height: 0px;
+    }
+
+}
+
+.valign-wrapper{
+    width: 100%;
+}
+
+/* Banner */
+.banner{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+.banner .placeholder{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner .placeholder .image{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/banner.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .placeholder .image .logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-image: url(../../images/logo-white-bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50vw;
+    top: 30vh;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.tentang-kami-btn{
+    position: absolute;
+    bottom: 5vh;
+    left: 60vw;
+}
+
+/* Sangu */
+.sangu-section{
+    width: 100%;
+    height: 20vh;
+}
+
+.sangu-saldo-section{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    background-color: var(--third-company-color);
+    display: flex;
+}
+
+.sangu-saldo-section .logo-placeholder{
+    margin: 5px 0px 0px 5px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--image-placeholder);
+}
+
+.sangu-saldo-section .text{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px 0px 10px
+}
+
+.sangu-saldo-section .saldo{
+    position: absolute;
+    right: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sangu-option{
+    width: 100%;
+    height: 65%;
+    background-color: var(--main-company-color);
+    display: flex;
+}
+
+/* Logo Card */
+.logo-card{
+    margin: 5vh 2.5% 0 0;
+    padding: 2%;
+    width: 30%;
+    height: fit-content;
+}
+
+.logo-card.bordered{
+    box-shadow: .1px .1px 2px var(--image-placeholder);
+}
+
+.logo-card .logo-placeholder{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-card .logo-placeholder .logo{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-card .text{
+    margin-top: 5px;
+}
+
+/* Carousel */
+.carousel{
+    margin-top: 5vh;
+    height: 20vh;
+}
+
+.carousel.carousel-slider .carousel-item{
+    min-height: 20vh;
+}
+
+.carousel-image-placeholder{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-image{
+    background-image: url(../../images/promo-imlek.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .indicators .indicator-item{
+    background-color: var(--secondary-company-color)!important;
+    width: 30px;
+    height: 3px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+.carousel .indicators .indicator-item.active{
+    background-color: var(--main-company-color)!important;
+}
+
+/* Layanan Kami */
+.layanan-kami-section{
+    margin-top: 5vh;
+}
+
+.layanan-kami-section > ul{
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 20px;
+}
+
+.layanan-kami{
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.layanan-kami .placeholder{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--main-company-color);
+
+}
+
+.layanan-kami .placeholder .image{
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    margin-left: -30%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.layanan-kami .nama{
+    margin-top: 2vh;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.layanan-kami .deskripsi{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+/* .layanan-kami-section{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5vh;
+}
+
+.layanan{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}*/
+
+/* Mitra Kami */
+.mitra-kami-section{
+    margin-top: 5vh;
+    background-color: var(--secondary-company-color);
+    height: fit-content;
+}
+
+.mitra{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 3vh;
+}
+
+/* How To Install */
+.how-to-install-section {
+    width: 100%;
+    background: var(--secondary-company-color);
+    min-height: 30vh;
+    border-top: 0.5rem solid white;
+    position: relative;
+    z-index: -2;
+}
+
+.divider-mobile{
+    background-color: white;
+}
